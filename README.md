@@ -11,7 +11,7 @@ Write here the names, career path and email of the members of the team
 | ----------------- | :--------: | -------------------------------: |
 | Cesar Pérez     |  Flutter   |   @itksquare.edu.mx |
 | Jacinto de la Hoz | SalesForce | jacinto.delahoz@itksquare.edu.mx |
-| Mariana López      | Javascript |    @itksquare.edu.mx |
+| Mariana López      | Javascript |    Mariana.Lopez@itksquare.edu.mx |
 
 ## Assignation
 
