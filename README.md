@@ -17,7 +17,7 @@ Write here the names, career path and email of the members of the team
 
 Please use this format for your User Stories assignations
 
-| User Stories     | Mariana | Jacinto | Cesar |
+| User Stories     | Cesar | Jacinto | Mariana |
 | ---------------- | :---: | :-----: | ------: |
 |  |       |         |        |
 |  |       |         |         |
