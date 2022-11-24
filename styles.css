@@ -7,34 +7,97 @@
 }
 
 body{
-    font-family: montserrat;
+    font-family: sans-serif;
+    background: #092236;
+    overflow: hidden;
 }
+
 nav{
     background: #0082e6;
     height: 80px;
     width: 100%;
+    position: relative;
 }
-label.logo{
-    color: white;
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    line-height: 80px;
+    z-index: 100;
+}
+
+.container-logo{
+    margin-left: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.container-logo h2{
+    color: #095bd8;
+    font-weight: 300;
     font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+    letter-spacing: 2px;
 }
 
-nav ul{
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li{
+.links .link{
     display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
 }
 
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    text-transform: uppercase;
+.links .link a{
+    text-decoration: none;
+    color: #d1faf4;
+    font-size: 15px;
+    margin: 0 2px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.link .link a:hover{
+    color: #487abb;
+}
+
+.toggle{
+    color: #d1faf4;
+    margin-right: 20px;
+    font-size: 30px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: .3s;
+    display: none;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+    .toggle{
+        display: inline-block;
+    }
+
+    .links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: #021222;
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 80px);
+        width: 100%;
+        z-index: -1;
+        top: -100vh;
+        transition: .5s;
+    }
+
+    .active{
+        top: 80px;
+    }
+
+    .links .links:hover{
+        background: #051c38;
+    }
+
+
 }
