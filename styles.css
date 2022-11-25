@@ -11,7 +11,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 nav{
-    background: #0082e6;
+    background: #34228b;
     height: 80px;
     width: 100%;
 }
@@ -32,7 +32,7 @@ nav{
 }
 
 .container-logo h2{
-    color: #095bd8;
+    color: #ffffff;
     font-weight: 300;
     font-size: 35px;
     letter-spacing: 2px;
