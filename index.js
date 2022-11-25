@@ -2,7 +2,7 @@ const toggle = document.querySelector('.toggle');
 const links = document.querySelector('.links');
 const sound = new Audio ('./Theme-Song.mp3');
 
-playBtn.addEventListener('click', () =>{
+document.addEventListener("scroll", () =>{
     sound.play();
 })
 
