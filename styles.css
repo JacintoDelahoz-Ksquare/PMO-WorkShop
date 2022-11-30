@@ -36,11 +36,11 @@ nav{
 .button {
     width: 60px;
     height: 60px;
-    margin: 1%;
-    background-color: #1D202B;
-    border: #1D202B;
+    margin: 0.7%;
+    background-color: #34228b;
+    border: #34228b;
     position: fixed;
-    margin-top: 6%;
+    margin-left: -15%;
 }
 
 .container-logo h2{
