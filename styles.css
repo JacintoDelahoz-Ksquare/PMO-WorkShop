@@ -122,8 +122,15 @@ nav ul li a{
 
 .contenedor-conciertos {
     width: 90%;   
+    margin-top: 5%;
 	
 }
+
+/* .box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
 
 .card {
 	display: flex;
@@ -137,23 +144,34 @@ nav ul li a{
 	background-size: cover;
 	background-position: center center;
     margin-bottom: 4%;
-    margin-top: 7%;
-	
+    margin-top: 0%;
+    /* width: 60%; */
+}
+
+.event-info{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 110%;
 }
 
 .textos{
-	gap: 20%;
-	margin: 2%;
-	padding: 2%;
-	
+    background-color: #ffffff00;
+    opacity: 1.0;
+    color: white;
+    width: 90%;
 }
 
 .textos h1 {
-	padding-bottom: 5%;
+	margin-top: 8%;
+    padding-bottom: 5%;
+    color: #d32e28;
+    padding-bottom: 0%;
 }
 
-.textos h2 {
+.textos h3 {
 	padding-bottom: 5%;
+    padding-bottom: 0%;
 }
 .banner {
     margin-top: 5%;
