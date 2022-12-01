@@ -39,8 +39,11 @@ nav{
     margin: 0.7%;
     background-color: #34228b;
     border: #34228b;
-    position: fixed;
-    margin-left: -15%;
+    position: relative;
+}
+
+.button-image {
+    margin-top: 25%;
 }
 
 .container-logo h2{
@@ -126,12 +129,6 @@ nav ul li a{
 	
 }
 
-/* .box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
 .card {
 	display: flex;
 	flex-wrap: wrap;
@@ -145,7 +142,6 @@ nav ul li a{
 	background-position: center center;
     margin-bottom: 4%;
     margin-top: 0%;
-    /* width: 60%; */
 }
 
 .event-info{
