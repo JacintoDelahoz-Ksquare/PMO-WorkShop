@@ -169,15 +169,19 @@ nav ul li a{
 	padding-bottom: 5%;
     padding-bottom: 0%;
 }
-
+.boton{
+    margin-top: 8%;
+}
 .banner {
-    margin-top: 5%;
+    margin-top: 14%;
 	border-radius: 10px;
 	text-align: center;
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
-    width: 30%;
+    width: 400px;
+   height: 2505px;
+   background-color: #34228b;
 }
 
 .banner ul {
@@ -187,10 +191,10 @@ nav ul li a{
 .banner ul li {
 	margin: 15px;
 	font-weight: bold;
-}
 
+}
 .banner .boton {
-	background: #FFD600;
+	background: hsl(50, 100%, 50%);
 	display: block;
 	width: 100%;
 	font-weight: bold;
@@ -202,6 +206,51 @@ nav ul li a{
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+h1{
+    color: aliceblue;
+    font-style: arial;
+}
+
+h4{
+    color:hwb(59 26% 0%);
+}
+.chap1{
+    height: 10%;
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 15%;
+    }
+
+.chap2{
+    height: 10%;
+    width: 100%;
+    margin-bottom: 15%;
+    }
+	
+
+.chap3{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 15%;
+        }
+
+.chap4{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 15%;
+        }
+
+.chap5{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 15%;
+        }
+
+.chap6{
+        height: 10%;
+        width: 100%;
+        margin-bottom: 15%;
+        }
 	
 .toggle{
     display: inline-block;
