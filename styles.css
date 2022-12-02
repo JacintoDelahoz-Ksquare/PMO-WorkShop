@@ -365,12 +365,12 @@ body_1{
     display: flex;
     flex-wrap: wrap;
 }
-
+/* 
 img{
     width: 1000px;
     height: 500px;
     margin-top: 3%;
-}
+} */
 .btn-neon{
     position: relative;
     display: inline-block;
@@ -384,7 +384,7 @@ img{
     margin-top: 3%;
 }
 
-H1{
+.homeTile{
     font-size: 50px;
 letter-spacing:-2px;
 color: #fff;
@@ -395,6 +395,7 @@ text-shadow: 0 0 5px #fff, 0 0 10px rgb(163, 159, 159), 0 0 15px rgb(204, 201, 2
 -moz-text-fill-color: #F4ECFF;
 -moz-text-stroke-color:#C546F7;
 -moz-text-stroke-width:0.2px;
+margin-bottom: 5%;
 }
 .btn-neon:hover{
     background: #a945c7;
