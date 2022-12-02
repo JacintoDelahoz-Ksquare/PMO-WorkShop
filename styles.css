@@ -147,7 +147,7 @@ nav ul li a{
 
 .contenedor-conciertos {
     width: 90%;   
-    margin-top: 5%;
+    margin-top: 1%;
 	
 }
 
@@ -195,14 +195,14 @@ nav ul li a{
     margin-top: 8%;
 }
 .banner {
-    margin-top: 14%;
+    margin-top: 10%;
 	border-radius: 10px;
 	text-align: center;
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
     width: 400px;
-   height: 2505px;
+   height: 2497px;
    background-color: #34228b;
 }
 
