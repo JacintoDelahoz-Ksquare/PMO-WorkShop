@@ -5,16 +5,18 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 body {
 	background: #1D202B;
 	color: rgb(9, 9, 9);
 	font-family: 'Roboto', sans-serif;
 }
+
 nav{
     background: #34228b;
     height: 80px;
     width: 100%;
-    position: fixed;
+    position: relative;
     z-index: 2;
 }
 
@@ -24,7 +26,7 @@ nav{
     justify-content: space-between;
     max-width: 1000px;
     line-height: 80px;
-    z-index: 100;
+    z-index: 1;
 }
 
 .container-logo{
@@ -37,7 +39,7 @@ nav{
     width: 60px;
     height: 60px;
     margin: 0.7%;
-    background-color: #34228b;
+    background-color: #34228b00;
     border: #34228b;
     position: relative;
 }
@@ -49,7 +51,7 @@ nav{
 .container-logo h2{
     color: #ffffff;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 200%;
     letter-spacing: 2px;
 }
 
@@ -66,8 +68,9 @@ nav{
     transition: .3s;
 }
 
-.link .link a:hover{
+.links .link a:hover{
     color: #487abb;
+    background: #34228b;
 }
 
 .toggle{
@@ -77,11 +80,30 @@ nav{
     transform: rotate(90deg);
     cursor: pointer;
     transition: .3s;
-    display: none;
+    display: inline-block;
 }
 
 .rotate{
     transform: rotate(180deg);
+}
+
+.links{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #021222;
+    text-align: center;
+    overflow: hidden;
+    height: calc(100vh - 80px);
+    width: 100%;
+    z-index: -2;
+    top: -100vh;
+    transition: .5s;
+}
+
+.active{
+    top: 80px;
+   
 }
 
 label.logo{
@@ -256,28 +278,7 @@ h4{
     display: inline-block;
 }
 
- .links{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    background: #021222;
-    text-align: center;
-    overflow: hidden;
-    height: calc(100vh - 80px);
-    width: 100%;
-    z-index: -2;
-    top: -100vh;
-    transition: .5s;
- }
 
-.active{
-     top: 80px;
-     left: 10px;
- }
-
-.links .links:hover{
-    background: #051c38;
-}
 
 .row{
     display: flex;
