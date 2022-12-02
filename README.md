@@ -24,17 +24,17 @@ Please use this format for your User Stories assignations
 | When the user scrolls down on the landing page they should see a navbar pop up on top of everything with the following tabs: Home, Events, Contacts, Meet the Team |       |     x    |         |
 | On the Events section of the site, I want to see a list with everything that is happening throughout the day:
 
-o Opening time: 11:00
+Opening time: 11:00
 
-o Q&A with the cast: 12:00
+Q&A with the cast: 12:00
 
-o Behind the scenes highlight 14:00
+Behind the scenes highlight 14:00
 
-o Q&A with the creators of the show: 16:00
+Q&A with the creators of the show: 16:00
 
-o Reading table of never shown before material: 17:00
+Reading table of never shown before material: 17:00
 
-o Closing ceremony: 18:00 |    x   |         |       |
+Closing ceremony: 18:00 |    x   |         |       |
 | On the Contact section, I want to be redirected to a TypeForm with 3 fields (name, phone and email) so I can contact them |   x    |         |         |
 | On the Meet the team section I want to see all the teams behind the event |       |    x    |         |
 
