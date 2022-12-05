@@ -11,7 +11,18 @@ body {
 	color: rgb(9, 9, 9);
 	font-family: 'Roboto', sans-serif;
 }
-
+body.homeClass {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #13042b;
+    font-family:consolas;
+    display: flex;
+    flex-direction: column;
+}
 nav{
     background: #34228b;
     height: 80px;
@@ -352,18 +363,6 @@ h4{
         max-width: 33.33%;
         padding: 0 1em;
     }
-}
-body_1{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #13042b;
-    font-family:consolas;
-    display: flex;
-    flex-direction: column;
 }
 
 .home{
