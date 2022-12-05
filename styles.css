@@ -147,8 +147,6 @@ nav ul li a{
 
 .contenedor-conciertos {
     width: 90%;   
-    margin-top: 1%;
-	
 }
 
 .card {
@@ -195,14 +193,14 @@ nav ul li a{
     margin-top: 8%;
 }
 .banner {
-    margin-top: 10%;
+    margin-top: 9.7%;
 	border-radius: 10px;
 	text-align: center;
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
     width: 400px;
-   height: 2497px;
+   height: 2553px;
    background-color: #34228b;
 }
 
@@ -229,12 +227,19 @@ nav ul li a{
 	cursor: pointer;
 }
 h1{
-    color: aliceblue;
+    color: rgb(252, 252, 252);
     font-style: arial;
+    font-size: 40px;
 }
 
 h4{
     color:hwb(59 26% 0%);
+}
+
+.chapters-text{
+    color: rgb(252, 252, 252);
+    font-style: arial;
+    font-size: 30px;
 }
 .chap1{
     height: 10%;
