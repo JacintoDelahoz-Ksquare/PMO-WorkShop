@@ -371,7 +371,7 @@ body_1{
     flex-wrap: wrap;
 }
 
-img{
+.front-image{
     width: 1000px;
     height: 600px;
 }
