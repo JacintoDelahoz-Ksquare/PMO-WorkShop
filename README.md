@@ -31,6 +31,3 @@ Please use this format for your User Stories assignations
 
 Please include here a link to your https://jacintodelahoz-ksquare.github.io/PMO-WorkShop/#
 
-# Requeriments
-
-You need to use the same version of node that we use in class and no external dependices can be used. This means no frameworks or libraries.
