@@ -1,7 +1,7 @@
 # PMO-WorkShop
 # Project 
 
-Welcome! This repo contains helpful information and starter files for your project, just fork this repo and go to town!
+
 
 ## Team members
 
